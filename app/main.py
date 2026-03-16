@@ -14,3 +14,7 @@ app.include_router(expenses.router)
 @app.get("/")
 def root():
     return {"message": "Expense Tracker Backend Running"}
+
+@app.get("/health")
+def health_check():
+    return {"status": "ok"}
