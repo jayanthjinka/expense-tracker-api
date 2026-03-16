@@ -1,37 +1,12 @@
-# Virtual Environment
+# Virtual environment
 venv/
-.env/
-.venv/
 
-# Environment Variables
+# Environment variables
 .env
-.env.*
 
 # Python cache
 __pycache__/
 *.pyc
-*.pyo
-*.pyd
 
-# Pytest
+# Pytest cache
 .pytest_cache/
-
-# Coverage
-.coverage
-htmlcov/
-
-# IDE / Editor
-.vscode/
-.idea/
-
-# OS
-.DS_Store
-Thumbs.db
-
-# Logs
-*.log
-
-# Build files
-dist/
-build/
-*.egg-info/
